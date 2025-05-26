@@ -18,7 +18,7 @@ This **PyQt6 desktop application** allows you to specify a local project directo
 
 ## Screenshots
 
-![Main application window showing file tree and options](images/main-window-output.png)
+
 *The main application window, displaying a project's file tree and options for selection.*
 
 ## Setup
