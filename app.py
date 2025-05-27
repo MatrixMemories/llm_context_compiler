@@ -21,7 +21,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # QSettings constants
 ORGANIZATION_NAME = "YourOrganizationName" # Change as you see fit
-APPLICATION_NAME = "ProjectContextGenerator"
+APPLICATION_NAME = "LLMContextCompiler"
 SETTINGS_PINNED_DIRS = "pinnedDirectories"
 SETTINGS_RECENT_DIRS = "recentDirectories"
 MAX_PINNED_DIRS = 3
@@ -478,7 +478,7 @@ class ViewFileDialog(QDialog):
 class ProjectContextGenerator(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Project Context Generator v1.3 :: Futura Edition") 
+        self.setWindowTitle("LLM Context Compiler") 
         self.setGeometry(100, 100, 1100, 850)
         self.setMinimumSize(QSize(800, 600))
         self.settings = QSettings(ORGANIZATION_NAME, APPLICATION_NAME)
